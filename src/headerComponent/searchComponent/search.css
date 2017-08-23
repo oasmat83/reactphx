@@ -1,0 +1,6 @@
+.searchWrap .ms-CommandBar {
+  float: right;
+  background-color: #ffffff !important; }
+  .searchWrap .ms-CommandBar .ms-CommandBarSearch {
+    border-right: none !important;
+    float: right !important; }

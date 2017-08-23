@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Searchbox from '../headerComponent/searchComponenet/search';
+import Searchbox from '../headerComponent/searchComponent/search';
+import Settings from '../headerComponent/settingsComponent/settings';
 
 class Header extends Component {
     
@@ -12,7 +13,7 @@ class Header extends Component {
                 </div>
             
                 <div className="settingsWrap" >
-                
+                    <Settings/>
                 </div>
 
                 <div className="searchWrap">

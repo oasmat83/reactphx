@@ -1,0 +1,52 @@
+@import '../../Color.Variables.scss';
+.settingsWrap {
+    
+        .ms-CommandButton {
+
+            button {
+                width: 44px;
+                height: 44px;
+                margin: 0px;
+                padding: 0px;
+
+                i {
+                    font-size: 24px;
+                }
+    
+                &:hover, &:focus {
+                    outline: none;
+                    color: $ms-color-themeDarker;
+                    background-color: $ms-color-themeLighter;
+                    border: 0px solid;
+                    outline: none;
+                }
+                .ms-CommandButton-icon {
+                    width:44px;
+                    height: 44px;
+                    font-size: 24px;
+    
+                    .ms-Icon {
+                        color: $ms-color-themePrimary;
+                        width: 44px;
+                        height: 44px;
+    
+                        &:hover {
+    
+                            outline:0px;
+                            color: $ms-color-themeDarker;
+                            background-color: $ms-color-themeLighter;
+                            outline: none;
+                            border: 0px solid;
+    
+    
+                        }
+                    }
+                }
+    
+            }
+        }
+        .ms-Panel-contentInner {
+            padding-bottom: 60px;
+        }
+    
+    }

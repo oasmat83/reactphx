@@ -1,0 +1,30 @@
+.settingsWrap .ms-CommandButton button {
+  width: 44px;
+  height: 44px;
+  margin: 0px;
+  padding: 0px; }
+  .settingsWrap .ms-CommandButton button i {
+    font-size: 24px; }
+  .settingsWrap .ms-CommandButton button:hover, .settingsWrap .ms-CommandButton button:focus {
+    outline: none;
+    color: #1b334b;
+    background-color: #c6d9eb;
+    border: 0px solid;
+    outline: none; }
+  .settingsWrap .ms-CommandButton button .ms-CommandButton-icon {
+    width: 44px;
+    height: 44px;
+    font-size: 24px; }
+    .settingsWrap .ms-CommandButton button .ms-CommandButton-icon .ms-Icon {
+      color: #6496c8;
+      width: 44px;
+      height: 44px; }
+      .settingsWrap .ms-CommandButton button .ms-CommandButton-icon .ms-Icon:hover {
+        outline: 0px;
+        color: #1b334b;
+        background-color: #c6d9eb;
+        outline: none;
+        border: 0px solid; }
+
+.settingsWrap .ms-Panel-contentInner {
+  padding-bottom: 60px; }
